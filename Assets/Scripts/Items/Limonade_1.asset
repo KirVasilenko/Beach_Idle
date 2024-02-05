@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb2d39e9f2405744ea368e8ad75bf279, type: 3}
+  m_Name: Limonade_1
+  m_EditorClassIdentifier: 
+  itemName: Limonade
+  tier: 1
+  itemModelPrefab: {fileID: 6024338109173466492, guid: 73b07c0799919534999075b92b52b1db,
+    type: 3}
+  icon: {fileID: 21300000, guid: 9a7b9f57c820c694dbef36d1199c9b79, type: 3}
+  productPrefab: {fileID: 1438512650942851559, guid: 7c1569780adfd9d4e83df9f5344583a5,
+    type: 3}
+  upgradeTable: {fileID: 0}

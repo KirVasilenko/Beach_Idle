@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d5acfb1fb2c6b43b57fcca53444e2d, type: 3}
+  m_Name: Item_base
+  m_EditorClassIdentifier: 
+  upgradeTiers:
+  - level: 1
+    cost: 6
+    upgradeValue: 3
+  - level: 2
+    cost: 7
+    upgradeValue: 3
+  - level: 3
+    cost: 8
+    upgradeValue: 4
+  - level: 4
+    cost: 9
+    upgradeValue: 5
+  - level: 5
+    cost: 10
+    upgradeValue: 6
+  - level: 6
+    cost: 11
+    upgradeValue: 7
+  - level: 7
+    cost: 12
+    upgradeValue: 8
+  - level: 8
+    cost: 13
+    upgradeValue: 10
+  - level: 9
+    cost: 14
+    upgradeValue: 14
+  - level: 10
+    cost: 26
+    upgradeValue: 15
+  - level: 11
+    cost: 30
+    upgradeValue: 18
+  - level: 12
+    cost: 32
+    upgradeValue: 22
+  - level: 13
+    cost: 32
+    upgradeValue: 26
+  - level: 14
+    cost: 38
+    upgradeValue: 32
+  - level: 15
+    cost: 40
+    upgradeValue: 38
+  - level: 16
+    cost: 44
+    upgradeValue: 46
+  - level: 17
+    cost: 46
+    upgradeValue: 55
+  - level: 18
+    cost: 50
+    upgradeValue: 66
+  - level: 19
+    cost: 54
+    upgradeValue: 69
+  - level: 20
+    cost: 60
+    upgradeValue: 95
+  - level: 21
+    cost: 64
+    upgradeValue: 115
+  - level: 22
+    cost: 70
+    upgradeValue: 138
+  - level: 23
+    cost: 76
+    upgradeValue: 165
+  - level: 24
+    cost: 62
+    upgradeValue: 198
+  - level: 25
+    cost: 165
+    upgradeValue: 200
+  - level: 26
+    cost: 202
+    upgradeValue: 256
+  - level: 27
+    cost: 235
+    upgradeValue: 344
+  - level: 28
+    cost: 255
+    upgradeValue: 412
+  - level: 29
+    cost: 276
+    upgradeValue: 495
+  - level: 30
+    cost: 298
+    upgradeValue: 594
+  - level: 31
+    cost: 322
+    upgradeValue: 713
+  - level: 32
+    cost: 347
+    upgradeValue: 855
+  - level: 33
+    cost: 375
+    upgradeValue: 1030
+  - level: 34
+    cost: 347
+    upgradeValue: 1240
+  - level: 35
+    cost: 405
+    upgradeValue: 1480
+  - level: 36
+    cost: 474
+    upgradeValue: 1780
+  - level: 37
+    cost: 510
+    upgradeValue: 2130
+  - level: 38
+    cost: 551
+    upgradeValue: 2560
+  - level: 39
+    cost: 596
+    upgradeValue: 3070
+  - level: 40
+    cost: 643
+    upgradeValue: 3680
+  - level: 41
+    cost: 695
+    upgradeValue: 4410
+  - level: 42
+    cost: 750
+    upgradeValue: 5300
+  - level: 43
+    cost: 810
+    upgradeValue: 6350
+  - level: 44
+    cost: 875
+    upgradeValue: 7620
+  - level: 45
+    cost: 956
+    upgradeValue: 9150
+  - level: 46
+    cost: 1200
+    upgradeValue: 11200
+  - level: 47
+    cost: 1310
+    upgradeValue: 13200
+  - level: 48
+    cost: 1190
+    upgradeValue: 15900
+  - level: 49
+    cost: 1280
+    upgradeValue: 19000
+  - level: 50
+    cost: 2770
+    upgradeValue: 39000
