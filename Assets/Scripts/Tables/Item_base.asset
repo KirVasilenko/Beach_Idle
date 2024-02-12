@@ -13,153 +13,155 @@ MonoBehaviour:
   m_Name: Item_base
   m_EditorClassIdentifier: 
   upgradeTiers:
-  - level: 1
-    cost: 6
-    upgradeValue: 3
-  - level: 2
-    cost: 7
-    upgradeValue: 3
-  - level: 3
-    cost: 8
-    upgradeValue: 4
-  - level: 4
-    cost: 9
-    upgradeValue: 5
-  - level: 5
-    cost: 10
-    upgradeValue: 6
-  - level: 6
-    cost: 11
-    upgradeValue: 7
-  - level: 7
-    cost: 12
-    upgradeValue: 8
-  - level: 8
-    cost: 13
-    upgradeValue: 10
-  - level: 9
-    cost: 14
-    upgradeValue: 14
-  - level: 10
-    cost: 26
-    upgradeValue: 15
-  - level: 11
-    cost: 30
-    upgradeValue: 18
-  - level: 12
-    cost: 32
-    upgradeValue: 22
-  - level: 13
-    cost: 32
-    upgradeValue: 26
-  - level: 14
-    cost: 38
-    upgradeValue: 32
-  - level: 15
-    cost: 40
-    upgradeValue: 38
-  - level: 16
-    cost: 44
-    upgradeValue: 46
-  - level: 17
-    cost: 46
-    upgradeValue: 55
-  - level: 18
-    cost: 50
-    upgradeValue: 66
-  - level: 19
-    cost: 54
-    upgradeValue: 69
-  - level: 20
-    cost: 60
-    upgradeValue: 95
-  - level: 21
-    cost: 64
-    upgradeValue: 115
-  - level: 22
-    cost: 70
-    upgradeValue: 138
-  - level: 23
-    cost: 76
-    upgradeValue: 165
-  - level: 24
-    cost: 62
-    upgradeValue: 198
-  - level: 25
-    cost: 165
-    upgradeValue: 200
-  - level: 26
-    cost: 202
-    upgradeValue: 256
-  - level: 27
-    cost: 235
-    upgradeValue: 344
-  - level: 28
-    cost: 255
-    upgradeValue: 412
-  - level: 29
-    cost: 276
-    upgradeValue: 495
-  - level: 30
-    cost: 298
-    upgradeValue: 594
-  - level: 31
-    cost: 322
-    upgradeValue: 713
-  - level: 32
-    cost: 347
-    upgradeValue: 855
-  - level: 33
-    cost: 375
-    upgradeValue: 1030
-  - level: 34
-    cost: 347
-    upgradeValue: 1240
-  - level: 35
-    cost: 405
-    upgradeValue: 1480
-  - level: 36
-    cost: 474
-    upgradeValue: 1780
-  - level: 37
-    cost: 510
-    upgradeValue: 2130
-  - level: 38
-    cost: 551
-    upgradeValue: 2560
-  - level: 39
-    cost: 596
-    upgradeValue: 3070
-  - level: 40
-    cost: 643
-    upgradeValue: 3680
-  - level: 41
-    cost: 695
-    upgradeValue: 4410
-  - level: 42
-    cost: 750
-    upgradeValue: 5300
-  - level: 43
-    cost: 810
-    upgradeValue: 6350
-  - level: 44
-    cost: 875
-    upgradeValue: 7620
-  - level: 45
-    cost: 956
-    upgradeValue: 9150
-  - level: 46
-    cost: 1200
-    upgradeValue: 11200
-  - level: 47
-    cost: 1310
-    upgradeValue: 13200
-  - level: 48
-    cost: 1190
-    upgradeValue: 15900
-  - level: 49
-    cost: 1280
-    upgradeValue: 19000
-  - level: 50
-    cost: 2770
-    upgradeValue: 39000
+  - ItemLevel: 1
+    FoodCost: 6
+    UpgradeCost: 5
+  - ItemLevel: 2
+    FoodCost: 7
+    UpgradeCost: 3
+  - ItemLevel: 3
+    FoodCost: 8
+    UpgradeCost: 4
+  - ItemLevel: 4
+    FoodCost: 9
+    UpgradeCost: 5
+  - ItemLevel: 5
+    FoodCost: 10
+    UpgradeCost: 6
+  - ItemLevel: 6
+    FoodCost: 11
+    UpgradeCost: 8
+  - ItemLevel: 7
+    FoodCost: 12
+    UpgradeCost: 8
+  - ItemLevel: 8
+    FoodCost: 13
+    UpgradeCost: 10
+  - ItemLevel: 9
+    FoodCost: 14
+    UpgradeCost: 12
+  - ItemLevel: 10
+    FoodCost: 26
+    UpgradeCost: 15
+  - ItemLevel: 11
+    FoodCost: 30
+    UpgradeCost: 18
+  - ItemLevel: 12
+    FoodCost: 32
+    UpgradeCost: 22
+  - ItemLevel: 13
+    FoodCost: 34
+    UpgradeCost: 26
+  - ItemLevel: 14
+    FoodCost: 38
+    UpgradeCost: 32
+  - ItemLevel: 15
+    FoodCost: 40
+    UpgradeCost: 38
+  - ItemLevel: 16
+    FoodCost: 44
+    UpgradeCost: 46
+  - ItemLevel: 17
+    FoodCost: 46
+    UpgradeCost: 55
+  - ItemLevel: 18
+    FoodCost: 50
+    UpgradeCost: 66
+  - ItemLevel: 19
+    FoodCost: 54
+    UpgradeCost: 69
+  - ItemLevel: 20
+    FoodCost: 60
+    UpgradeCost: 95
+  - ItemLevel: 21
+    FoodCost: 64
+    UpgradeCost: 115
+  - ItemLevel: 22
+    FoodCost: 70
+    UpgradeCost: 138
+  - ItemLevel: 23
+    FoodCost: 76
+    UpgradeCost: 165
+  - ItemLevel: 24
+    FoodCost: 84
+    UpgradeCost: 198
+  - ItemLevel: 25
+    FoodCost: 164
+    UpgradeCost: 200
+  - ItemLevel: 26
+    FoodCost: 202
+    UpgradeCost: 256
+  - ItemLevel: 27
+    FoodCost: 235
+    UpgradeCost: 344
+  - ItemLevel: 28
+    FoodCost: 255
+    UpgradeCost: 413
+  - ItemLevel: 29
+    FoodCost: 276
+    UpgradeCost: 495
+  - ItemLevel: 30
+    FoodCost: 298
+    UpgradeCost: 594
+  - ItemLevel: 31
+    FoodCost: 322
+    UpgradeCost: 713
+  - ItemLevel: 32
+    FoodCost: 347
+    UpgradeCost: 855
+  - ItemLevel: 33
+    FoodCost: 375
+    UpgradeCost: 1240
+  - ItemLevel: 34
+    FoodCost: 405
+    UpgradeCost: 1480
+  - ItemLevel: 35
+    FoodCost: 438
+    UpgradeCost: 1550
+  - ItemLevel: 36
+    FoodCost: 473
+    UpgradeCost: 1780
+  - ItemLevel: 37
+    FoodCost: 510
+    UpgradeCost: 2130
+  - ItemLevel: 38
+    FoodCost: 551
+    UpgradeCost: 2560
+  - ItemLevel: 39
+    FoodCost: 596
+    UpgradeCost: 3060
+  - ItemLevel: 40
+    FoodCost: 673
+    UpgradeCost: 3690
+  - ItemLevel: 41
+    FoodCost: 695
+    UpgradeCost: 4410
+  - ItemLevel: 42
+    FoodCost: 750
+    UpgradeCost: 5300
+  - ItemLevel: 43
+    FoodCost: 810
+    UpgradeCost: 6300
+  - ItemLevel: 44
+    FoodCost: 875
+    UpgradeCost: 7600
+  - ItemLevel: 45
+    FoodCost: 945
+    UpgradeCost: 9100
+  - ItemLevel: 46
+    FoodCost: 1200
+    UpgradeCost: 11200
+  - ItemLevel: 47
+    FoodCost: 1310
+    UpgradeCost: 13200
+  - ItemLevel: 48
+    FoodCost: 1370
+    UpgradeCost: 15800
+  - ItemLevel: 49
+    FoodCost: 14100
+    UpgradeCost: 16600
+  - ItemLevel: 50
+    FoodCost: 27300
+    UpgradeCost: 18500
+  BaseCookingTime: 5
+  OpenCost: 5

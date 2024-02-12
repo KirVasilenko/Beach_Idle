@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4521659384882123576}
-  - component: {fileID: 5536862095474184493}
   m_Layer: 0
   m_Name: StartZone
   m_TagString: Untagged
@@ -34,27 +33,6 @@ Transform:
   - {fileID: 7747139201452026185}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &5536862095474184493
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8045870986722018431}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.0281768, y: 3.031314, z: 1.5978813}
-  m_Center: {x: -2.2359738, y: 1.9976511, z: -8.095276}
 --- !u!1001 &2986054400766927142
 PrefabInstance:
   m_ObjectHideFlags: 0
