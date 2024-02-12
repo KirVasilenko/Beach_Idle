@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d5acfb1fb2c6b43b57fcca53444e2d, type: 3}
+  m_Name: Item_base
+  m_EditorClassIdentifier: 
+  upgradeTiers:
+  - ItemLevel: 1
+    FoodCost: 6
+    UpgradeCost: 5
+  - ItemLevel: 2
+    FoodCost: 7
+    UpgradeCost: 3
+  - ItemLevel: 3
+    FoodCost: 8
+    UpgradeCost: 4
+  - ItemLevel: 4
+    FoodCost: 9
+    UpgradeCost: 5
+  - ItemLevel: 5
+    FoodCost: 10
+    UpgradeCost: 6
+  - ItemLevel: 6
+    FoodCost: 11
+    UpgradeCost: 8
+  - ItemLevel: 7
+    FoodCost: 12
+    UpgradeCost: 8
+  - ItemLevel: 8
+    FoodCost: 13
+    UpgradeCost: 10
+  - ItemLevel: 9
+    FoodCost: 14
+    UpgradeCost: 12
+  - ItemLevel: 10
+    FoodCost: 26
+    UpgradeCost: 15
+  - ItemLevel: 11
+    FoodCost: 30
+    UpgradeCost: 18
+  - ItemLevel: 12
+    FoodCost: 32
+    UpgradeCost: 22
+  - ItemLevel: 13
+    FoodCost: 34
+    UpgradeCost: 26
+  - ItemLevel: 14
+    FoodCost: 38
+    UpgradeCost: 32
+  - ItemLevel: 15
+    FoodCost: 40
+    UpgradeCost: 38
+  - ItemLevel: 16
+    FoodCost: 44
+    UpgradeCost: 46
+  - ItemLevel: 17
+    FoodCost: 46
+    UpgradeCost: 55
+  - ItemLevel: 18
+    FoodCost: 50
+    UpgradeCost: 66
+  - ItemLevel: 19
+    FoodCost: 54
+    UpgradeCost: 69
+  - ItemLevel: 20
+    FoodCost: 60
+    UpgradeCost: 95
+  - ItemLevel: 21
+    FoodCost: 64
+    UpgradeCost: 115
+  - ItemLevel: 22
+    FoodCost: 70
+    UpgradeCost: 138
+  - ItemLevel: 23
+    FoodCost: 76
+    UpgradeCost: 165
+  - ItemLevel: 24
+    FoodCost: 84
+    UpgradeCost: 198
+  - ItemLevel: 25
+    FoodCost: 164
+    UpgradeCost: 200
+  - ItemLevel: 26
+    FoodCost: 202
+    UpgradeCost: 256
+  - ItemLevel: 27
+    FoodCost: 235
+    UpgradeCost: 344
+  - ItemLevel: 28
+    FoodCost: 255
+    UpgradeCost: 413
+  - ItemLevel: 29
+    FoodCost: 276
+    UpgradeCost: 495
+  - ItemLevel: 30
+    FoodCost: 298
+    UpgradeCost: 594
+  - ItemLevel: 31
+    FoodCost: 322
+    UpgradeCost: 713
+  - ItemLevel: 32
+    FoodCost: 347
+    UpgradeCost: 855
+  - ItemLevel: 33
+    FoodCost: 375
+    UpgradeCost: 1240
+  - ItemLevel: 34
+    FoodCost: 405
+    UpgradeCost: 1480
+  - ItemLevel: 35
+    FoodCost: 438
+    UpgradeCost: 1550
+  - ItemLevel: 36
+    FoodCost: 473
+    UpgradeCost: 1780
+  - ItemLevel: 37
+    FoodCost: 510
+    UpgradeCost: 2130
+  - ItemLevel: 38
+    FoodCost: 551
+    UpgradeCost: 2560
+  - ItemLevel: 39
+    FoodCost: 596
+    UpgradeCost: 3060
+  - ItemLevel: 40
+    FoodCost: 673
+    UpgradeCost: 3690
+  - ItemLevel: 41
+    FoodCost: 695
+    UpgradeCost: 4410
+  - ItemLevel: 42
+    FoodCost: 750
+    UpgradeCost: 5300
+  - ItemLevel: 43
+    FoodCost: 810
+    UpgradeCost: 6300
+  - ItemLevel: 44
+    FoodCost: 875
+    UpgradeCost: 7600
+  - ItemLevel: 45
+    FoodCost: 945
+    UpgradeCost: 9100
+  - ItemLevel: 46
+    FoodCost: 1200
+    UpgradeCost: 11200
+  - ItemLevel: 47
+    FoodCost: 1310
+    UpgradeCost: 13200
+  - ItemLevel: 48
+    FoodCost: 1370
+    UpgradeCost: 15800
+  - ItemLevel: 49
+    FoodCost: 14100
+    UpgradeCost: 16600
+  - ItemLevel: 50
+    FoodCost: 27300
+    UpgradeCost: 18500
+  BaseCookingTime: 5
+  OpenCost: 5
