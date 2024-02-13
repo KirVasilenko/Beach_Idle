@@ -16,7 +16,7 @@ public class Client : MonoBehaviour
 
         _moving = new ClientMovingState(this, _leaving); 
         _leaving = new ClientLeavingState(this, _moving); 
-        _SM = new ClientStateMachine(_moving); 
+        _SM = new ClientStateMachine(); 
     }
 
     private void DestroyClient()
@@ -35,6 +35,6 @@ public class Client : MonoBehaviour
     private void Update()
     {
         _SM.CurrentState.UpdateState();
-        _moving.EnterState();
+        _SM.ChangeState(_moving);   
     }
 }

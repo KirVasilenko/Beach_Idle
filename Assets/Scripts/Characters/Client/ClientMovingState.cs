@@ -15,19 +15,18 @@ public class ClientMovingState : ClientState
     public override void EnterState()
 {
     _client.anim.SetBool("IsWalk", true);
-    if (_leaveState != null)
-    {
-        MoveToAvailableTarget();
-    }
-    else
-    {
-        Debug.LogWarning("Leave state is not initialized.");
-    }
+    
+
 }
 
 
     public override void UpdateState()
     {
+        if (_leaveState != null)
+        {
+        MoveToAvailableTarget();
+        }
+        
         if (_targetPoint != null && _client.navMeshAgent.remainingDistance <= _client.navMeshAgent.stoppingDistance)
         {
             _client.navMeshAgent.isStopped = true;

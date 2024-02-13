@@ -4,20 +4,17 @@ public class ClientStateMachine
 {
     public ClientState CurrentState { get; set; }
 
-    public ClientStateMachine(ClientState initialState)
+    public void Initialize(ClientState startState)
     {
-        CurrentState = initialState;
-        CurrentState.SetStateMachine(this);
+        CurrentState = startState;
         CurrentState.EnterState();
     }
 
-    public void UpdateState()
-    {
-        CurrentState.UpdateState();
-    }
 
-    public void EnterState()
+    public void ChangeState(ClientState newState)
     {
+        CurrentState.ExitState();
+        CurrentState = newState;
         CurrentState.EnterState();
     }
 }
